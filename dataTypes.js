@@ -34,8 +34,10 @@
         //     Hobbies: ['Reading', 'Riding']
         // }] - Array of objet 
         // Array methods
-            const arr = ['Banana', 'Apple', 'Strawberry']
+            const arr = ['Banana', 'Apple', 'Strawberry', 'Apple']
             const orgArr = ['Grapes', 'Watermelon']
+            const arrOfObj = [{name: 'Banana'}, {name: 'Apple'}, {name: 'Strawberry'}, {name: 'Apple'}]
+            const arrOfNum = [3, 5, 7, 3, 2, 4,  5]
             // console.log(arr.length);
             // console.log(arr.toString());
             // console.log(arr.at(2));
@@ -57,6 +59,29 @@
             // console.log(arr.toSpliced(1, 1, 'Pomgranade', 'Mango'));
             // console.log(arr);
             // console.log(arr.slice(1, 3));
+            // console.log(arr.indexOf('Apple'))
+            // console.log(arr.lastIndexOf('Apple'))
+            // console.log(arr.includes('Apple')
+            // console.log(arr.find((el, i, arrr) => i === 1))
+            // console.log(arr.findIndex((el, i, arrr) => el === 'Apple'))
+            // console.log(arr.findLast((el, i, arrr) => i === 1))
+            // console.log(arr.findLastIndex((el, i, arrr) => el === 'Apple'))
+            // console.log(arr);
+            // console.log(arr.sort());
+            // console.log(arr.toSorted());
+            // console.log(arr.reverse());
+            // console.log(arr.toReversed());
+            // console.log(arrOfObj.sort((a, b) => a.name > b.name ? 1 : -1));
+            // console.log(arrOfNum.sort((a, b) => b - a));
+            // const changedArr = []
+            // arrOfObj.forEach((el, i, arrrrr) => {
+            //     changedArr.push(el)
+            // })
+            // console.log(changedArr);
+            // console.log(arrOfObj.map((el, i, arrr) => el.name));
+            // console.log(document.writeln([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((el, i, arrr) => 'card')));
+            // console.log(arrOfObj.filter((el, i, arrr) => el.name === 'Strawberrfffy'));
+            
             
     // Object
         // {
