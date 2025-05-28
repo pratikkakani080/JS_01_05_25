@@ -37,7 +37,15 @@
             const arr = ['Banana', 'Apple', 'Strawberry', 'Apple']
             const orgArr = ['Grapes', 'Watermelon']
             const arrOfObj = [{name: 'Banana'}, {name: 'Apple'}, {name: 'Strawberry'}, {name: 'Apple'}]
-            const arrOfNum = [3, 5, 7, 3, 2, 4,  5]
+            const arrOfNum = [3, 6, 7, 3, 2, 4,  5]
+            // const reduced = arrOfObj.reduce((a, c) => {
+            //     console.log('acc  ===> ', a.name, 'curr  ==> ', c.name);
+                
+            //     return {name: a.name + ',' + c.name}
+            // })
+            // console.log('reduced ===> ', reduced);
+            
+
             // console.log(arr.length);
             // console.log(arr.toString());
             // console.log(arr.at(2));
@@ -81,6 +89,16 @@
             // console.log(arrOfObj.map((el, i, arrr) => el.name));
             // console.log(document.writeln([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((el, i, arrr) => 'card')));
             // console.log(arrOfObj.filter((el, i, arrr) => el.name === 'Strawberrfffy'));
+            // console.log(arrOfNum.every((el, i, a) => {
+            //     console.log('test', i);
+                
+            //     return el < 7
+            // }));
+            // console.log(arrOfNum.some((el, i, a) => {
+            //     console.log('test', i);
+                
+            //     return el === 5
+            // }));
             
             
     // Object
