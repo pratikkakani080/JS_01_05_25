@@ -8,8 +8,12 @@
 <body>
 
     <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <script src="asyncFunc.js"></script>
+    <p onclick="myclickhandler()">This is a paragraph.</p>
+    <input type="text" onchange="mychangehandler(event)" onkeypress="keyhandler(event)" />
+    <input id="cb" class="input_class" type="checkbox" onchange="mychangehandler(event)" onkeypress="keyhandler(event)" />
+    <input id="radio" class="input_class" type="radio" onchange="mychangehandler(event)" />
+
+    <script src="domManipulation.js"></script>
 </body>
 
 </html>

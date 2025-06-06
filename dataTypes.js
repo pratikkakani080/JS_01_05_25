@@ -132,7 +132,8 @@
         // }
         // testingFun()
         // // Arrow function
-        // const arrowFun = () => {
-        //     console.log('testing arrow function call');
+        // const test = 'test'
+        // const arrowFun = (sdsff, sfs, rgr, fff) => {
+        //     console.log('testing arrow function call', sdsff, sfs, rgr, fff);
         // }
-        // arrowFun()
+        // arrowFun(test, 4, true, [55])
